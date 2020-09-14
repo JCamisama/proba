@@ -8,11 +8,11 @@ public class Hauteskundeak {
 
 	@Override
 	public String toString() {
-		String emaitza = "";
+		StringBuilder emaitza = new StringBuilder();
 		for (var mahai : mahaiak) {
-			emaitza += mahai + " ";
+			emaitza.append(mahai).append(" ");
 		}
-		return emaitza;
+		return emaitza.toString();
 	}
 	private void gehituMahaia(String mahai) {
 			mahaiak .add(mahai);
@@ -27,6 +27,7 @@ public class Hauteskundeak {
 		h2021.gehituMahaia("Bergara");
 		h2021.gehituMahaia("Andoain");
 		h2021.gehituMahaia("Hernani");
+		h2021.gehituMahaia("Jonport");
 
 
 		System.out.println(h2021);
