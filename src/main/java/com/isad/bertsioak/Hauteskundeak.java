@@ -4,12 +4,12 @@ import java.util.ArrayList;
 
 public class Hauteskundeak {
 
-	private ArrayList<String> mahaiak = new ArrayList<String>();
+	private ArrayList<String> mahaiak = new ArrayList<>();
 
 	@Override
 	public String toString() {
 		String emaitza = "";
-		for (String mahai : mahaiak) {
+		for (var mahai : mahaiak) {
 			emaitza += mahai + " ";
 		}
 		return emaitza;
@@ -26,6 +26,8 @@ public class Hauteskundeak {
 		h2021.gehituMahaia("Tolosa");
 		h2021.gehituMahaia("Bergara");
 		h2021.gehituMahaia("Andoain");
+		h2021.gehituMahaia("Hernani");
+
 
 		System.out.println(h2021);
 	}
