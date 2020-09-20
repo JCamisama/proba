@@ -31,6 +31,7 @@ public class Hauteskundeak {
 		h2021.gehituMahaia("Talka");
 
 
+		h2021.gehituMahaia("Nada que decir");
 
 		System.out.println(h2021);
 	}
