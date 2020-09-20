@@ -28,7 +28,7 @@ public class Hauteskundeak {
 		h2021.gehituMahaia("Andoain");
 		h2021.gehituMahaia("Hernani");
 		h2021.gehituMahaia("Jonport");
-
+		h2021.gehituMahaia("Nada que decir");
 
 		System.out.println(h2021);
 	}
